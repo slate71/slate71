@@ -1,0 +1,11 @@
+{
+  "name": "slate71",
+  "version": "1.0.0",
+  "description": "slate71 website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Andersen",
+  "license": "ISC"
+}
