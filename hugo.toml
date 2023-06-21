@@ -1,0 +1,4 @@
+baseURL = 'https://lukasandersen.com/'
+languageCode = 'en-us'
+title = 'Slate71'
+theme = 'ananke'
