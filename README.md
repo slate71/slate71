@@ -1,1 +1,1 @@
-# Slate71 Website
+# My Blog

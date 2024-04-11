@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Management on Slate71</title>
+    <link>https://lukasandersen.com/categories/management/</link>
+    <description>Recent content in Management on Slate71</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Jun 2023 11:33:49 -0700</lastBuildDate><atom:link href="https://lukasandersen.com/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On Building a Foundation</title>
+      <link>https://lukasandersen.com/posts/on-building-a-foundation/</link>
+      <pubDate>Fri, 30 Jun 2023 11:33:49 -0700</pubDate>
+      
+      <guid>https://lukasandersen.com/posts/on-building-a-foundation/</guid>
+      <description>Testing the foundation </description>
+    </item>
+    
+  </channel>
+</rss>
