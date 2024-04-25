@@ -7,7 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2024, Lukas Andersen. All rights reserved.</copyright>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2024 10:38:30 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logs</title>
+      <link>http://localhost:1313/logs/</link>
+      <pubDate>Thu, 25 Apr 2024 10:38:30 -0700</pubDate>
+      <guid>http://localhost:1313/logs/</guid>
+      <description>This is a page about »Logs«.</description>
+    </item>
   </channel>
 </rss>
