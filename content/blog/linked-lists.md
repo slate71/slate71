@@ -3,6 +3,7 @@ title = "Notes on Linked Lists"
 date = "2024-04-11T11:24:40-07:00"
 description = "Notes on working with Linked Lists."
 tags = ["data-structures"]
+draft = true
 +++
 
 ## Some notes about working with Linked Lists
