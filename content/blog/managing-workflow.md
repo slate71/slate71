@@ -1,8 +1,8 @@
----
-title: "Managing Workflow"
-date: 2023-07-11T10:56:21-07:00
-draft: true
----
++++
+title = "Managing Workflow"
+date = 2023-07-11T10:56:21-07:00
+draft = true
++++
 
 ## Managing Engineering Team Workflow Using Kanban `and The Principles of Product Development Flow
 

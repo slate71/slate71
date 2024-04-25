@@ -1,24 +1,10 @@
----
-title: "About"
-date: 2023-06-22T14:06:12-07:00
-draft: true
----
++++
+title = "About"
+menu = "main"
+draft = "true"
++++ 
 
-## Lukas Andersen
-
-Hello,
-
-I'm a software engineer and manager.
-
-(Be business minded? Search for problems to solve that create real business value over problems that scratch the engineers itch. Why? To develop a niche that will pay well and avoid over crowding by other engineers that might find those problems boring. And, to set up transferable skill to CTO, CEO, or Owner)
-
-Currently I manage a team of engineers at HouseCanary. Previousyly I worked at Intel in the New Devices Group and for a startup Called Basis which made a smart watch before the Apple Watch made it to the market and ate our lunch.
-
-Before that I worked as a business analyst at Sony Pictures Home Entertainment. I studied business at Pepperdine while working there.
-
-Before that I gave a go at acting after having studied at the Pacific Conservatory Theatre.
-
----
+## About it All
 
 Notes on what makes an about page successful:
 

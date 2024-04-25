@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Management on Slate71</title>
-    <link>https://lukasandersen.com/categories/management/</link>
-    <description>Recent content in Management on Slate71</description>
+    <title>Management on The Blog of Lukas Andersen</title>
+    <link>http://localhost:1313/categories/management/</link>
+    <description>Recent content in Management on The Blog of Lukas Andersen</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 30 Jun 2023 11:33:49 -0700</lastBuildDate><atom:link href="https://lukasandersen.com/categories/management/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-US</language>
+    <copyright>Copyright © 2024, Lukas Andersen. All rights reserved.</copyright>
+    <lastBuildDate>Fri, 30 Jun 2023 11:33:49 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/management/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Building a Foundation</title>
-      <link>https://lukasandersen.com/posts/on-building-a-foundation/</link>
+      <link>http://localhost:1313/on-building-a-foundation/</link>
       <pubDate>Fri, 30 Jun 2023 11:33:49 -0700</pubDate>
-      
-      <guid>https://lukasandersen.com/posts/on-building-a-foundation/</guid>
-      <description>Testing the foundation </description>
+      <guid>http://localhost:1313/on-building-a-foundation/</guid>
+      <description>Testing the foundation The Mission Witihin the next 5 years I will:&#xA;Establish myself as a thought leader in the field of technology leadership by regularly publishing 2 blog posts a month, or even creating videos and starting a podcast. While sharing this content on social media and relevant forums. Found a networking platform focused on technology leadership Speak at 3 major industry conferences Obtain a patent in a cutting-edge technology Establish a non-profit for increasing access to technology for underprivileged talent </description>
     </item>
-    
   </channel>
 </rss>
