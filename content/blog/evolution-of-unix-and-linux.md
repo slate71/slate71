@@ -56,6 +56,6 @@ By understanding the historical context and technical foundations of Unix and Li
 Citations:  
 [^1] [https://www.redhat.com/sysadmin/unix-linux-history](https://www.redhat.com/sysadmin/unix-linux-history)  
 [^2] [https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir](https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir)  
-[^3] [https://www.reddit.com/r/linux/comments/1au2525/forgetting_the_history_of_unix_is_coding_us_into/](https://www.reddit.com/r/linux/comments/1au2525/forgetting_the_history_of_unix_is_coding_us_into/)  
+[^3] [https://www.theregister.com/2024/02/16/what_is_unix/](https://www.theregister.com/2024/02/16/what_is_unix/)  
 [^4] [https://www.geeksforgeeks.org/linux-history/](https://www.geeksforgeeks.org/linux-history/)  
 [^5] [https://loopedback.com/2019/12/26/__trashed-3/](https://loopedback.com/2019/12/26/__trashed-3/)  
