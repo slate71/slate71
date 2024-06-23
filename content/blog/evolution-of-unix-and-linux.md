@@ -54,8 +54,8 @@ In summary, Unix and Linux are more than just operating systems; they are pillar
 By understanding the historical context and technical foundations of Unix and Linux, hiring managers and recruiters can make more informed decisions, ensuring they bring on board engineers who appreciate the legacy and potential of these powerful operating systems.
 
 Citations:  
-[1] [https://www.redhat.com/sysadmin/unix-linux-history]  
-[2] [https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir]  
-[3] [https://www.reddit.com/r/linux/comments/1au2525/forgetting_the_history_of_unix_is_coding_us_into/]  
-[4] [https://www.geeksforgeeks.org/linux-history/]  
-[5] [https://loopedback.com/2019/12/26/__trashed-3/]  
+[1] [https://www.redhat.com/sysadmin/unix-linux-history](https://www.redhat.com/sysadmin/unix-linux-history)  
+[2] [https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir](https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir)  
+[3] [https://www.reddit.com/r/linux/comments/1au2525/forgetting_the_history_of_unix_is_coding_us_into/](https://www.reddit.com/r/linux/comments/1au2525/forgetting_the_history_of_unix_is_coding_us_into/)  
+[4] [https://www.geeksforgeeks.org/linux-history/](https://www.geeksforgeeks.org/linux-history/)  
+[5] [https://loopedback.com/2019/12/26/__trashed-3/](https://loopedback.com/2019/12/26/__trashed-3/)  
