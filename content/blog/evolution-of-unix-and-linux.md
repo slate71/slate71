@@ -1,6 +1,7 @@
 +++
 title = "Evolution of Unix and Linux"
 date = "2024-06-22T17:17:09-07:00"
+draft = true
 
 #
 # description is optional
@@ -53,9 +54,9 @@ In summary, Unix and Linux are more than just operating systems; they are pillar
 
 By understanding the historical context and technical foundations of Unix and Linux, hiring managers and recruiters can make more informed decisions, ensuring they bring on board engineers who appreciate the legacy and potential of these powerful operating systems.
 
-Citations:  
-[1] [https://www.redhat.com/sysadmin/unix-linux-history](https://www.redhat.com/sysadmin/unix-linux-history)  
-[2] [https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir](https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir)  
-[3] [https://www.theregister.com/2024/02/16/what_is_unix/](https://www.theregister.com/2024/02/16/what_is_unix/)  
-[4] [https://www.geeksforgeeks.org/linux-history/](https://www.geeksforgeeks.org/linux-history/)  
-[5] [https://loopedback.com/2019/12/26/__trashed-3/](https://loopedback.com/2019/12/26/__trashed-3/)  
+Citations:
+[1] [https://www.redhat.com/sysadmin/unix-linux-history](https://www.redhat.com/sysadmin/unix-linux-history)
+[2] [https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir](https://www.stevenmaude.co.uk/posts/a-review-of-unix-a-history-and-a-memoir)
+[3] [https://www.theregister.com/2024/02/16/what_is_unix/](https://www.theregister.com/2024/02/16/what_is_unix/)
+[4] [https://www.geeksforgeeks.org/linux-history/](https://www.geeksforgeeks.org/linux-history/)
+[5] [https://loopedback.com/2019/12/26/__trashed-3/](https://loopedback.com/2019/12/26/__trashed-3/)

@@ -1,7 +1,7 @@
 ---
 title: "Capacity Planning"
 date: 2024-07-02T12:00:18-07:00
-draft: false
+draft: true
 ---
 
 ## Planning Capacity Requirements in Systems Design

@@ -1,7 +1,7 @@
 ---
 title: "Model Software Engineer"
 date: 2024-07-02T10:59:58-07:00
-draft: false
+draft: true
 ---
 
 Creating a model of a senior-level generalist software engineer in high demand in the current market involves considering various skills, experiences, and attributes. Here is a detailed model:

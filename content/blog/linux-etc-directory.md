@@ -1,6 +1,7 @@
 +++
 title = "Understanding the Linux /etc Directory"
 date = "2024-06-22T22:53:31-07:00"
+draft = true
 
 description = "Discover the critical role of the /etc directory in Linux systems. This comprehensive guide explains the purpose, contents, and importance of /etc for system configuration and management. Learn how this central repository houses essential files for network settings, user authentication, system services, and software packages. Ideal for Linux administrators and enthusiasts looking to deepen their understanding of Linux file system structure and improve their system management skills."
 
