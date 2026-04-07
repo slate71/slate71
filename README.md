@@ -1,31 +1,26 @@
-# Building agentic systems for real-world workflows
+# Building AI-powered operations for small businesses
 
-I'm a full-stack engineer focused on making AI agents actually useful for business operations. Currently building autonomous systems that handle complex workflows with appropriate human oversight.
+I run **Anvil** — an AI operations studio that builds automations for small business clients. I turn manual workflows into autonomous systems: scheduling, dispatch, CRM pipelines, and the repetitive operational work that slows teams down.
 
-## What I'm Building
+## How Anvil Works
 
-**[Grund](https://github.com/slate71/grund)** - Monorepo for autonomous agents that run operations
-- Career Ops Agent managing my job search pipeline
-- Client workspace system for consulting engagements
+- Shared platform with per-client workspaces and isolated deployments
+- AI agents handle bounded operational tasks with human oversight at decision points
+- Built on TypeScript, Postgres, Railway, and Cloudflare — designed to scale from 1 client to 20+
 
 ## Focus Areas
 
-- **Agent orchestration** - Building reliable systems that work in production
-- **Operational workflows** - Turning business processes into autonomous systems
-- **Human-AI interfaces** - Designing for appropriate human oversight and control
-
-## Recent Work
-
-- **[agent-status](https://github.com/slate71/agent-status)** - React component for agent state visualization
-- **[tool-invocation](https://github.com/slate71/tool-invocation)** - Components for AI tool interactions
+- **Client automations** — Replacing manual processes with reliable, autonomous workflows
+- **Platform architecture** — Building a shared core that accelerates each new engagement
+- **Operational AI** — AI agents that do real work in production, not demos
 
 ## Background
 
-10+ years building user interfaces and leading engineering teams. Former Chapter Lead at Airbyte, led platform modernization and team of 8 engineers at HouseCanary. Now applying that experience to make AI agents handle the operational work that slows businesses down.
+10+ years building interfaces and leading engineering teams. Former Chapter Lead at Airbyte, led platform modernization and team of 8 at HouseCanary.
 
-## Let's Connect
+## Work With Me
 
-Currently exploring opportunities in agentic systems and AI platforms. Interested in roles where I can build reliable autonomous systems for complex real-world tasks.
+Open to consulting engagements and opportunities in AI operations, agentic systems, and automation platforms.
 
 - [LinkedIn](https://linkedin.com/in/llandersen)
 - [Email](mailto:luke@slate71.com)
