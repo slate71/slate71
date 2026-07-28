@@ -1,26 +1,38 @@
-# Building AI-powered operations for small businesses
+# Building regulated compliance software for pest control operators
 
-I run **Anvil** — an AI operations studio that builds automations for small business clients. I turn manual workflows into autonomous systems: scheduling, dispatch, CRM pipelines, and the repetitive operational work that slows teams down.
+I build **WDO Desk** — software that turns a termite inspector's spoken
+walkthrough into a structured, review-ready state inspection report. Live in
+production with a California WDO operator since July 2026.
 
-## How Anvil Works
+## What it does
 
-- Shared platform with per-client workspaces and isolated deployments
-- AI agents handle bounded operational tasks with human oversight at decision points
-- Built on TypeScript, Postgres, Railway, and Cloudflare — designed to scale from 1 client to 20+
+- Captures a field inspection by voice and diagram, offline-capable, on a tablet
+- Extracts findings in the regulation's own terms (CA WDO Form 43M-41) — the
+  model is structurally constrained to the regulation's taxonomy, it can't
+  invent a finding code
+- A person reviews every finding before anything is filed — nothing files itself
+- Every correction becomes a permanent test case the system has to pass from
+  then on
 
-## Focus Areas
+## How it's built
 
-- **Client automations** — Replacing manual processes with reliable, autonomous workflows
-- **Platform architecture** — Building a shared core that accelerates each new engagement
-- **Operational AI** — AI agents that do real work in production, not demos
+- Multi-tenant platform (internal name: Anvil), schema-per-tenant isolation,
+  Postgres + Drizzle, deployed on Railway and Cloudflare
+- An eval-gated, self-improving dev loop: failing test case → code → full gate
+  (lint, types, tests, evals) → PR behind automated + human review
+- The moat is provenance and auditability, not speed — every finding traces
+  back to its source capture and model version
 
 ## Background
 
-10+ years building interfaces and leading engineering teams. Former Chapter Lead at Airbyte, led platform modernization and team of 8 at HouseCanary.
+10+ years building interfaces and leading engineering teams. Former Chapter
+Lead at Airbyte; led platform modernization and an 8-person team at
+HouseCanary.
 
-## Work With Me
+## Work with me
 
-Open to consulting engagements and opportunities in AI operations, agentic systems, and automation platforms.
+Open to consulting engagements in applied AI and regulated-domain automation.
 
+- [WDO Desk](https://wdodesk.com)
 - [LinkedIn](https://linkedin.com/in/llandersen)
 - [Email](mailto:luke@slate71.com)
