@@ -1,48 +1,27 @@
-# I deploy AI to radically improve margins in service businesses
+# Building regulated compliance software for pest control operators
 
-**The problem.** A California WDO (wood-destroying-organism) inspection company's
-most expensive, licensed labor was bottlenecked by mandatory paperwork — every
-inspection legally requires a specific state-board report, and inspectors were
-spending hours after each job hand-writing it instead of billing field time.
-That's the margin compression I set out to remove.
+I build **WDO Desk** — software that turns a termite inspector's spoken
+walkthrough into a structured, review-ready state inspection report. Live in
+production with a California WDO operator since July 2026.
 
-**The constraint.** The report isn't freeform text a model can improvise — it's
-a regulated legal document where errors carry licensing consequences. So the
-success bar was never "does the AI write something plausible." It's "does this
-pass side-by-side review against a licensed inspector's own compliant report."
-The real legal artifact is the benchmark.
+## What it does
 
-**The architecture.** I deliberately didn't build this as an agent. In a
-regulated workflow you want determinism and inspectability, so the LLM stays
-confined to narrow, typed steps — voice in, structured findings out — never
-roaming free over a legal document: capture → transcription → findings
-extraction → report generation → filing → audit trail. Tenant isolation is
-schema-per-tenant with row-level security in Postgres, not just separate
-containers, because RLS is the boundary that survives an audit. Trust comes
-from a human in the loop plus an eval harness — a spec, a scoreboard, a
-stopping condition, scored against golden cases from the field — so "good
-enough" is measured, not a vibe. The one place I *did* go agentic is the build
-itself: an eval-gated SDLC where a coding agent takes a ready issue, writes a
-failing eval, and codes until it's green behind a taste-critic and a human
-merge. Built by agents, doesn't run as one. Underneath it all is an event
-stream that's more than logging — it's the provenance backbone, and the
-foundation for the field app to behave like a sensor instead of a form. The
-layer I'm adding next extends that same core to agents: an MCP server over the
-API, so a REST API serves the field app and MCP serves agents — two consumers,
-one regulated core.
+- Captures a field inspection by voice and diagram, offline-capable, on a tablet
+- Extracts findings in the regulation's own terms (CA WDO Form 43M-41) — the
+  model is structurally constrained to the regulation's taxonomy, it can't
+  invent a finding code
+- A person reviews every finding before anything is filed — nothing files itself
+- Every correction becomes a permanent test case the system has to pass from
+  then on
 
-**Where it stands.** Field capture and findings extraction are live in
-production. Report generation is the stage now being built and validated
-against that same side-by-side bar, with field validation next. The
-before-state is already measured, not estimated — pulled from the operator's
-own system-of-record history: a median of 3 days from inspection to report
-entry, 0% same-day, three office staff batch-retyping every report by hand.
-That's the number the system has to beat, and it's falsifiable by the same
-queries once it does.
+## How it's built
 
-Because it's built as reusable primitives — not bespoke code — this is tenant
-one of a platform pattern for deploying AI into regulated service workflows,
-not a dead end.
+- Multi-tenant platform (internal name: Anvil), schema-per-tenant isolation,
+  Postgres + Drizzle, deployed on Railway and Cloudflare
+- An eval-gated, self-improving dev loop: failing test case → code → full gate
+  (lint, types, tests, evals) → PR behind automated + human review
+- The moat is provenance and auditability, not speed — every finding traces
+  back to its source capture and model version
 
 ## Background
 
